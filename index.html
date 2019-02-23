@@ -13,6 +13,9 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.1/tiny-slider.css">
+	   <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.1/min/tiny-slider.js"></script>
+
 </head>
 
 <body>
@@ -34,12 +37,20 @@
     <div class="container">
 
         <!-- Slider -->
+        <div class="my-slider">
         <div class="slider_view clearfix border_no_top">
 
             <h2 class="meta_title"> META CONSECTETUS </h2>
             <p class="meta_content"> Nulla Pariatur. Nulla Pariatur.Nulla Voluptatem Pariatur.</p>
             <button class="border button1"> LEARN MORE </button>
         </div>
+        <div class="slider_view1 clearfix border_no_top">
+
+                <h2 class="meta_title"> META CONSECTETUS </h2>
+                <p class="meta_content"> Nulla Pariatur. Nulla Pariatur.Nulla Voluptatem Pariatur.</p>
+                <button class="border button1"> LEARN MORE </button>
+        </div>
+    </div>
 
     </div>
 
@@ -249,19 +260,30 @@
     </div>
 
     <footer class="end">
-            <div class=" container page_page">
-                <div class="home clearfix">
-                    <ul class="navbarlist ">
-                        <li class="bottom">HOME</li>
-                        <li class="bottom">PRODUCTS</li>
-                        <li class="bottom">CUSTOMERS</li>
-                        <li class="bottom">NEWS + EVENTS</li>
-                        <li class="bottom">ABOUT US</li>
-                    </ul>
-                    <p class="company2011">@2011 Company Name. All rights reserved.</p>
-                </div>
-            </div>	
-        </footer>
+        <div class=" container page_page">
+            <div class="home clearfix">
+                <ul class="navbarlist ">
+                    <li class="bottom">HOME</li>
+                    <li class="bottom">PRODUCTS</li>
+                    <li class="bottom">CUSTOMERS</li>
+                    <li class="bottom">NEWS + EVENTS</li>
+                    <li class="bottom">ABOUT US</li>
+                </ul>
+                <p class="company2011">@2011 Company Name. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script>
+        var slider = tns({
+            container: '.my-slider',
+            items: 1,
+            slideBy: 'page',
+            autoplay: true,
+            mode: "gallery",
+            autoplayButtonOutput: false,
+            controls: false
+        });
+    </script>
 
 
 </body>
