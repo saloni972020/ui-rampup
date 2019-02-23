@@ -123,7 +123,7 @@ header{
     padding-top: 10px
 }
 .block2_title{
-    font-size: 25px;
+    font-size: 20px;
     font-family: sans-serif;
     color: darkgreen;
 }
@@ -134,10 +134,130 @@ header{
   }
 .column_3_layout {
     float: left;
-    width: 33.33%;
+    width: 32%;
   }
 .column_2_layout {
 float: left;
-width: 50%;
+width: 45%;
 }
-  
+.padding{
+    padding: 20px 0px 0px 25px
+}
+.padding-top{
+    padding: 20px 0px 0px 0px
+} 
+.block3_col1
+{
+    width: 60%;
+    float: left;
+}
+.block3_col2
+{
+    width: 30%;
+    float: right;
+}
+.outset {
+    border-bottom: 2px solid darkgreen;
+}
+.padding-top-10{
+    padding: 10px 0px 0px 0px
+}
+.block4_col1
+{
+    width: 40%;
+    float: left;
+}
+.block4_col2
+{
+    width: 40%;
+    float: right;
+}
+.padding-top-30{
+    padding: 30px 0px 0px 0px
+}
+.border-block{
+    border: 1px solid gray;
+}
+.margin-block{
+    margin-top: 10px;
+}
+.margin-top{
+    margin-top: 20px;
+}
+.margin-left{
+    margin-left: 20px;
+}
+.border-height{
+    border-left: 1px solid gray;
+    padding-left: 10px;
+}
+.border-height-2{
+    border-left: 1px solid gray;
+    padding-left: 15px;
+}
+.gradient{
+    background-image: linear-gradient(white, #F4F4F4);
+}
+.block2_title-2{
+    font-size: 17px;
+    font-family: sans-serif;
+    color: darkgreen;
+}
+.bold{
+    color: black;
+    font-size: 13px;
+}
+.margin-bottom{
+    margin-bottom: 5px;
+}
+.button2{
+    background-color: white;
+    color: darkgreen;
+    height: 34px;
+    width: 196px;
+    border-color: lightskyblue;
+    font-family: sans-serif;
+    text-align: left;
+    padding: 5px 15px 5px 15px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.block2_title-3{
+    font-size: 20px;
+    font-family: sans-serif;
+    color:gray;
+}
+.padding-bottom{
+    padding-bottom: 10px;
+}
+.date{
+    font-size: 15px;
+    font-weight: bold;
+}
+.border2{
+    border-bottom: 1px solid gray;
+}
+.padding-bottom{
+    padding-bottom: 15px;
+}
+.padding-bottom2{
+    padding-bottom: 10px;
+}
+.end{
+	min-height: 30px;
+	background-color: #8D8886;
+	margin-top: 29px;
+}
+.company2011{
+	color :white;
+	float: right;
+	padding: 19px 0px 62px 0px;
+}
+.bottom{
+    display:inline-block;
+    float: left;
+    color: white;
+    text-align: left;
+    padding: 19px 5px 62px 0px;
+    text-decoration: none;
+  }
