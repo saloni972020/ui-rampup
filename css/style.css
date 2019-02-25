@@ -15,7 +15,7 @@ header{
     font-size: 20px;
     font-family: sans-serif;
     color: darkgreen;
-    font-weight: 500;
+    font-weight: 500px;
 }
 .logo{
     float: left;
@@ -30,10 +30,9 @@ header{
 .clearfix:after {
     visibility: hidden;
     display: block;
-    font-size: 0;
+    font-size: 0px;
     content: " ";
     clear: both;
-    height: 0;
   }
 .row{
     float: right;
@@ -124,6 +123,7 @@ header{
     text-decoration: none;
     text-emphasis-color: red;
     text-decoration-color: black;
+    color: grey;
   }
 .block2 {
     padding-top: 10px;
@@ -268,3 +268,9 @@ width: 45%;
     padding: 19px 5px 62px 0px;
     text-decoration: none;
   }
+.learn-more{
+    color: green;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
